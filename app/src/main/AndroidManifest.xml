@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,67 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AracKiralama"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".mercedeseqesatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".bmw216dsatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".chrsatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".focussatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".scalasatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".astrasatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".meganesatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".corollasatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".egeasatinalim"
+            android:exported="false" />
+        <activity
+            android:name=".i20satinalim"
+            android:exported="false" />
+        <activity
+            android:name=".mercedeseqe"
+            android:exported="false" />
+        <activity
+            android:name=".bmw216d"
+            android:exported="false" />
+        <activity
+            android:name=".fordfocus"
+            android:exported="false" />
+        <activity
+            android:name=".skodascala"
+            android:exported="false" />
+        <activity
+            android:name=".opelastra"
+            android:exported="false" />
+        <activity
+            android:name=".renaultmegane"
+            android:exported="false" />
+        <activity
+            android:name=".fiategea"
+            android:exported="false" />
+        <activity
+            android:name=".toyotachr"
+            android:exported="false" />
+        <activity
+            android:name=".toyotacorolla"
+            android:exported="false" />
+        <activity
+            android:name=".hyundaii20"
+            android:exported="true" />
         <activity
             android:name=".AccountActivity"
             android:exported="false" />
@@ -23,7 +83,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
