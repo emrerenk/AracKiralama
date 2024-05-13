@@ -46,4 +46,14 @@
             app:srcCompat="@drawable/account" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="240dp"
+        android:layout_height="42dp"
+        android:background="#DA0F0F"
+        android:text="Button"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="124dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
