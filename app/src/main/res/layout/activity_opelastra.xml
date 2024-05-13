@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".opelastra">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:text="Günlük : 600₺"
+        android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/hyundaiii"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,8 +108,11 @@
         android:layout_width="250dp"
         android:layout_height="75dp"
         android:layout_marginTop="16dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
         android:onClick="satinal"
         android:text="Aracı Şimdi Kirala"
+        android:textColorLink="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
@@ -146,6 +151,7 @@
             android:layout_height="wrap_content"
             android:text="2+3 Bagaj"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <TextView
@@ -154,6 +160,7 @@
             android:layout_height="wrap_content"
             android:text="Klimalı"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <TextView
@@ -162,6 +169,7 @@
             android:layout_height="wrap_content"
             android:text="5 Kapı"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -182,6 +190,7 @@
             android:layout_height="wrap_content"
             android:text="Benzin"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <TextView
@@ -190,6 +199,7 @@
             android:layout_height="wrap_content"
             android:text="Otomatik"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <TextView
@@ -198,6 +208,7 @@
             android:layout_height="wrap_content"
             android:text="5 Yolcu"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
