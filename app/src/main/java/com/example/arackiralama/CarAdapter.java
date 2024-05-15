@@ -42,7 +42,10 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.ViewHolder>{
             @Override
             public void onClick(View v) {
                 if(mListener != null){
-                    mListener.onItemClick(pos);
+                    int position= holder.getAdapterPosition();
+                    if(position!=RecyclerView.NO_POSITION){
+                        mListener.onItemClick(position);
+                    }
                 }
             }
         });
@@ -56,6 +59,10 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.ViewHolder>{
 
     public void setCars(List<CarModel.Car> cars) {
         mData=cars;
+        notifyDataSetChanged();
+    }
+    public List<CarModel.Car> getCars() {
+        return mData;
     }
 
 
